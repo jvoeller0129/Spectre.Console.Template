@@ -17,3 +17,7 @@ dotnet new install ./Spectre.Console.Template
 
 Creates a New Spectre Application 
 dotner new spectre -n MyApp
+
+
+optionally there is a nuget package located in the bin\release\
+
