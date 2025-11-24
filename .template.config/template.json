@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "John Voeller",
+  "description": "A template for creating a Spectre.Console application.",  
+  "version": "1.0.0",
+  "website": "https://github.com/jvoeller0129/Spectre.Console.Template",
+  "classifications": [ "Console", "Spectre" ],
+  "identity": "Spectre.Console.Template",
+  "name": "Spectre Console App",
+  "shortName": "spectre",
+  "tags": {
+    "type": "project",
+    "language": "C#"
+  },
+  "sourceName": "SpectreApp",
+  "preferNameDirectory": true
+}

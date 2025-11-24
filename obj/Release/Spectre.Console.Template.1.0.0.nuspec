@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Spectre.Console.Template</id>
+    <version>1.0.0</version>
+    <authors>John Voeller</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/jvoeller0129/Spectre.Console.Template</projectUrl>
+    <description>A template for creating a Spectre.Console application.</description>
+    <repository type="git" url="https://github.com/jvoeller0129/Spectre.Console.Template" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Spectre.Console" version="0.54.0" exclude="Build,Analyzers" />
+        <dependency id="Spectre.Console.Cli" version="0.53.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\TEmp\SpectreApp\bin\Release\net9.0\SpectreApp.runtimeconfig.json" target="lib\net9.0\SpectreApp.runtimeconfig.json" />
+    <file src="C:\TEmp\SpectreApp\bin\Release\net9.0\SpectreApp.dll" target="lib\net9.0\SpectreApp.dll" />
+    <file src="C:\TEmp\SpectreApp\.template.config\template.json" target="content\.template.config\template.json" />
+    <file src="C:\TEmp\SpectreApp\Program.cs" target="content\Program.cs" />
+    <file src="C:\TEmp\SpectreApp\SpectreApp.csproj" target="content\SpectreApp.csproj" />
+  </files>
+</package>

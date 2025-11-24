@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+     <PackageId>Spectre.Console.Template</PackageId>
+     <VersionPrefix>1.0.0</VersionPrefix>
+      <VersionSuffix>$(Date:yyyyMMddHHmm)</VersionSuffix>
+    <Authors>John Voeller</Authors>
+    <Description>A template for creating a Spectre.Console application.</Description>
+    <PackageProjectUrl>https://github.com/jvoeller0129/Spectre.Console.Template</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jvoeller0129/Spectre.Console.Template</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>  
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="*" />
+    <PackageReference Include="Spectre.Console.Cli" Version="*" />
+  </ItemGroup>
+
+    <!-- Template content -->
+  <ItemGroup>
+    <None Include=".template.config\**" Pack="true" PackagePath="content/.template.config" />
+    <None Include="Program.cs" Pack="true" PackagePath="content/" />
+    <None Include="SpectreApp.csproj" Pack="true" PackagePath="content/" />
+
+  </ItemGroup>
+
+</Project>
